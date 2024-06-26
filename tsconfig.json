@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    },
+    "include": ["src/**/*", "./global.d.ts"],
+}
